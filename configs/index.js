@@ -2,12 +2,12 @@ export const PORT = 3000
 export const DEV = true
 
 // // express 的位置
-// export const API_SERVER = 'https://makin-backend.vercel.app/'
+// export const API_SERVER = 'https://makin-music-backend.vercel.app/'
 
 // export const MB_ADD_POST = `${API_SERVER}`
 
-export const apiBaseUrl = 'https://makin-backend.vercel.app/api'
-export const avatarBaseUrl = 'https://makin-backend.vercel.app/avatar'
+export const apiBaseUrl = 'https://makin-music-backend.vercel.app/api'
+export const avatarBaseUrl = 'https://makin-music-backend.vercel.app/avatar'
 
 // // breadcrumb面包屑使用
 // // 用pathname英文對照中文的名稱(類似關聯陣列的物件)

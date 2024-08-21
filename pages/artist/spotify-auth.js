@@ -6,8 +6,8 @@ const SpotifyAuth = () => {
   const router = useRouter()
 
   const handleLogin = () => {
-    router.push('https://makin-backend.vercel.app/login')
-    // window.location.href = 'https://makin-backend.vercel.app/login'
+    router.push('https://makin-music-backend.vercel.app/login')
+    // window.location.href = 'https://makin-music-backend.vercel.app/login'
   }
 
   return (

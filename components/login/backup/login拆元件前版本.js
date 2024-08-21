@@ -231,7 +231,7 @@ export default function Login({
 
     // 最後檢查完全沒問題才送到伺服器(ajax/fetch)
     const res = await fetch(
-      'https://makin-backend.vercel.app/api/members/raw-sql',
+      'https://makin-music-backend.vercel.app/api/members/raw-sql',
       {
         method: 'POST',
         headers: {

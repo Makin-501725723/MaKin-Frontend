@@ -25,7 +25,7 @@ const nextConfig = {
     return [
       {
         source: '/api/:path*',
-        destination: 'https://makin-backend.vercel.app/:path*', // Proxy to Backend
+        destination: 'https://makin-music-backend.vercel.app/:path*', // Proxy to Backend
         // :path*：這是一個佔位符，表示將匹配 source 中的所有路徑。* 代表匹配任何子路徑。
       },
     ]
